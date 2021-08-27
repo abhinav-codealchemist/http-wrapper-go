@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	NOT_ASSIGNED     = ""
+	NOT_ASSIGNED                              = ""
 	DEFAULT_TIMEOUT                           = 20 * time.Second
 	AUTHORIZATION_TOKEN_PREFIX                = "Token"
 	CONTENT_TYPE_APP_JSON         ContentType = "application/json"
