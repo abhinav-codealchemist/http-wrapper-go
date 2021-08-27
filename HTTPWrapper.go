@@ -198,7 +198,7 @@ func MakeApiCallWithRawResponse(ctx context.Context, request *HttpRequestParams)
 	}
 
 	if request.authUserName != NOT_ASSIGNED && request.authPassword != NOT_ASSIGNED {
-		httpRequest.SetBasicAuth(request.authUserName, request.authPassword) // move to config
+		httpRequest.SetBasicAuth(request.authUserName, request.authPassword)
 	}
 
 	if request.basicAuth != NOT_ASSIGNED {
